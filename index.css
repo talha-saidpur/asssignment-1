@@ -1,0 +1,140 @@
+body {
+  background-color: #f1f1f3;
+}
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  border-radius: 20px;
+}
+.text {
+  margin: auto 0;
+}
+
+.text h1 {
+  font-size: 42px;
+  margin: 0;
+}
+.text h3 {
+  color: #4c5b54;
+}
+.banner button {
+  padding: 15px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #006a50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.banner .image img {
+  width: 400px;
+}
+
+.the-vision-of-future p {
+  color: #4c5b54;
+  font-weight: 400;
+  font-size: 14px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 20px;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  border: none;
+  width: 25%;
+  border-radius: 20px;
+}
+.cards button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.recent-news p {
+  color: #4c5b54;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.news .news1 {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.news .image img {
+  border-radius: 20px;
+}
+.news button {
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #006a50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.news h3 {
+  margin: 0px;
+}
+
+.donate {
+  text-align: center;
+}
+
+.donate p {
+  color: #4c5b54;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px 50px;
+  margin: 20px 0px;
+}
+.donate .buttons button {
+  font-size: 25px;
+  padding: 20px 30px;
+  margin: 0 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  /* border: 0.5px solid #868787; */
+}
+.donate input {
+  width: 80%;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+.donate .btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #006a50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
